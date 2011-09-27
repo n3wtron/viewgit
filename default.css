@@ -42,6 +42,24 @@ a.zip_link{
 	background: url('images/silk/page_white_zip.png') no-repeat 50% 50%;
 }
 
+a.full_graph{
+	padding-top: 16px;
+	height: 0px;
+	width: 22px;
+	overflow: hidden;
+	display: inline-block;
+	background: url('images/silk/full_chart.png') no-repeat 50% 50%;
+}
+
+a.short_graph{
+	padding-top: 16px;
+	height: 0px;
+	width: 22px;
+	overflow: hidden;
+	display: inline-block;
+	background: url('images/silk/chart.png') no-repeat 50% 50%;
+}
+
 a.cdiff_link {
 	padding-top: 16px;
 	height: 0px;

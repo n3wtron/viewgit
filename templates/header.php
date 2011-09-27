@@ -72,6 +72,11 @@ foreach ($page['links'] as $link => $params) {
 	if ($page['action'] === $link) { echo '</span>'; }
 	$first = false;
 }
+
+	$cP = $conf['projects'][$page['project']];
+	echo "| <a href=\"graph/viewgraph.php".makelink(array('project'=>$page['project'],'path'=>$cP['repo'],'short'=>'1'))."\" rel=\"nofollow\" title=\"Last 3 months History Graph\" >Short History Graph</a>";
+	echo "| <a href=\"graph/viewgraph.php".makelink(array('project'=>$page['project'],'path'=>$cP['repo']))."\" rel=\"nofollow\" title=\"Full History Graph\" >Full History Graph</a>";
+	
 ?>
  | 
 <form action="?" method="get" class="search">

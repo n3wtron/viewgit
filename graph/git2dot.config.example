@@ -1,0 +1,6 @@
+#!/bin/bash 
+GIT=/usr/bin/git
+AWK=/bin/awk 
+SED=/bin/sed
+VIEW_GIT="http://example.com/viewgit/"
+MANTIS="http://example.com/mantis/"

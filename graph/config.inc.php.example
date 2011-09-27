@@ -1,0 +1,3 @@
+<?php
+	$conf['dotPath']='/usr/bin/dot';
+?>
